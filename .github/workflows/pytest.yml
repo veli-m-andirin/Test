@@ -6,7 +6,7 @@
 name: Workflow Sample Unit Test
 
 on:
-  pull_request:
+  push:
     branches: [ issue1_target_branch ]
 
 jobs:
